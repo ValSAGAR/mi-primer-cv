@@ -1,0 +1,86 @@
+@font-face {
+    font-family: TitulosVSagar ;
+    src: url("OCRAEXT.TTF");
+}
+
+@font-face{
+    font-family: CuerpoVSagar ;
+    src: url("SourceCodePro-Regular.ttf") ;
+}
+
+@font-face {
+    font-family: CuerpoVSagarB;
+    src: url("SourceCodePro-Bold.ttf");
+}
+/*Estilos de etiquetas*/
+h1{
+    font-family: TitulosVSagar ;
+}
+
+h2{
+    font-family: TitulosVSagar;
+}
+
+h3{
+    font-family: TitulosVSagar;
+}
+body{
+    font-family: CuerpoVSagar;
+    margin: 0%;
+}
+
+main{
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Estilos de la cabecera*/
+header{
+    background-color:#ffffff ;
+    margin-bottom: 0%;
+    display: grid;
+    grid-template-columns: 100px 600px 1fr;
+    border-width: 0px;
+    border-bottom: 1px;
+    border-bottom-color: rgb(228, 228, 228) ;
+    border-style: solid;
+    
+}
+
+.logo{
+    text-align: center;
+    padding-top: 3px;
+    margin-left: 10px;
+}
+
+.nav_links{
+    font-family: TitulosVSagar ;
+    font-size: 120%;
+    color: rgb(24, 10, 148);
+    list-style: none;
+    text-align: center;
+}
+.nav_links li{
+    display: inline;
+    margin-right: 5%;
+}
+header .nav_links a{
+    color: rgb(24, 10, 148);
+    outline: none;
+    text-decoration: none;
+}
+header .nav_links a:visited {
+    color: rgb(24, 10, 148);
+}
+header .nav_links a:hover{
+    color:aqua;
+    border-bottom-color: navy;
+}
+
+/*Estilos del pie de página*/
+footer{
+    font-family: CuerpoVSagarB ;
+    font-size: x-small;
+    background-color:#bbf5ff;
+}

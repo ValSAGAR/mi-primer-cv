@@ -1,0 +1,74 @@
+
+.descripcion{
+    font-size: 90%;
+}
+
+main #caracteristicas{
+    display: inline-block;
+    width: 80%;
+}
+
+main aside{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: navy;
+    width: 20%;
+    max-width: 300px;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 2%;
+}
+main aside img{
+    width: 75%;
+    border-radius: 50%;
+    margin-top: 20px;
+    border-color: turquoise;
+    border-style: solid;
+    align-self: center;
+}
+
+main aside h1{
+    font-family:'Lucida Sans Regular';
+    text-align: center;
+    margin-bottom: 0%;
+    color: azure;
+}
+
+main aside h2{
+    font-family:'Lucida Sans Regular';
+    font-size: medium;
+    text-align: center;
+    margin-top: 0%;
+    color: azure;
+}
+
+
+
+.secciones_cv ul{
+    font-family: TitulosVSagar ;
+    text-align: left;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.secciones_cv ul li{
+    display: block;
+    height: 30px;
+}
+.secciones_cv ul li a{
+    color: turquoise;
+    outline: none;
+    text-decoration: none;
+    font-weight: lighter;
+    margin: 5px;
+}
+.secciones_cv ul li a:visited{
+    color: turquoise;
+}
+
+.secciones_cv ul li a:hover{
+    color: azure;
+    background-color:midnightblue;
+}
